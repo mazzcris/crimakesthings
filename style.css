@@ -8,6 +8,7 @@ html, body {
     display: inline-block;
     margin-right: 1px;
     margin-top: 1px;
+    margin-bottom: 40px;
 }
 
 .header_title {
@@ -60,3 +61,35 @@ html, body {
     cursor: pointer;
     transform: scale(1.1);
 }
+
+.project_container * {
+    display: inline-block;;
+}
+
+.project_container {
+    display: block;
+    width: 80%;
+    min-height: 200px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.project_images, .project_details {
+    display: inline-block;
+    width: 47%;
+    float: left;
+    padding: 1%;
+}
+
+.project_details {
+    border-left: 1px solid grey;
+}
+
+.project_image {
+    width: 30%;
+    padding: 4px;
+}
+
