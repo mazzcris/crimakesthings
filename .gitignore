@@ -1,0 +1,6 @@
+.idea/
+backend/*
+site/*
+!backend/index.html
+!backend/style.css
+!backend/images

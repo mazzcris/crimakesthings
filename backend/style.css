@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header_container{
+    width: 100%;
+    display: inline-block;
+    margin-right: 1px;
+    margin-top: 1px;
+}
+
+.header_element {
+    width: 4.95%;
+    float: left;
+    padding-left: 0.05%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: inline-block;
+}
+
+.header_link, .header_link img {
+    width: 100%;
+    display: block;
+    transition: transform .25s ease-out;
+}
+
+.header_link{
+    overflow: hidden;
+}
+
+.header_link img {
+    object-fit: cover;
+
+    box-sizing: border-box;
+    -webkit-filter: grayscale(45%);
+    -moz-filter:    grayscale(45%);
+    -o-filter:      grayscale(45%);
+
+}
+
+.header_link img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+    -moz-filter:    grayscale(0%);
+    -o-filter:      grayscale(0%);
+    cursor: pointer;
+    transform: scale(1.5);
+}
