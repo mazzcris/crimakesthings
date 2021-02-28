@@ -3,11 +3,24 @@ html, body {
     padding: 0;
 }
 
-.header_container{
+.header_container {
     width: 100%;
     display: inline-block;
     margin-right: 1px;
     margin-top: 1px;
+}
+
+.header_title {
+    position: absolute;
+    z-index: 99999;
+    text-align: center;
+    width: 100%;
+    pointer-events: none;
+}
+
+.header_title img {
+    width: 70%;
+    pointer-events: none;
 }
 
 .header_element {
@@ -25,7 +38,7 @@ html, body {
     transition: transform .25s ease-out;
 }
 
-.header_link{
+.header_link {
     overflow: hidden;
 }
 
@@ -33,17 +46,17 @@ html, body {
     object-fit: cover;
 
     box-sizing: border-box;
-    -webkit-filter: grayscale(45%);
-    -moz-filter:    grayscale(45%);
-    -o-filter:      grayscale(45%);
+    -webkit-filter: opacity(45%);
+    -moz-filter: opacity(45%);
+    -o-filter: opacity(45%);
 
 }
 
 .header_link img:hover {
     filter: none;
     -webkit-filter: grayscale(0%);
-    -moz-filter:    grayscale(0%);
-    -o-filter:      grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
     cursor: pointer;
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
