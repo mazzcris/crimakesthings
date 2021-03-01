@@ -102,11 +102,11 @@ html, body {
     width: 60px;
     height: auto;
     cursor: pointer;
+    margin-right: 12px;
 }
 
 .project_smallnav_image {
-    padding: 4px;
-    border: 1px solid rgb(221, 221, 221);
+    box-shadow: rgb(200 200 200) 1px 1px 5px;
 }
 
 .slick-dots li {
@@ -118,5 +118,5 @@ html, body {
 }
 
 .project_title {
-    margin-top: 0;
+    margin: 0;
 }
