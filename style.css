@@ -9,7 +9,6 @@ html, body {
     display: inline-block;
     margin-right: 1px;
     margin-top: 1px;
-    margin-bottom: 40px;
 }
 
 .header_title {
@@ -69,12 +68,13 @@ html, body {
 }
 
 .project_container {
-    display: inline-block;
-    width: 80%;
+    margin: auto;
+    display: block;
+    width: 70%;
     min-height: 480px;
     padding: 20px;
-    margin: auto;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    clear: both;
 }
 
 .project_left, .project_details {
@@ -85,19 +85,17 @@ html, body {
 }
 
 .project_image {
+    width: 90%;
     height: auto !important;
 }
 
 .project_images {
-    width: 70%;
-    padding: 20px;
-    border: 1px solid rgb(221, 221, 221);
-    border-radius: 5px;
+    width: 90%;
     height: min-content;
 }
 
 .slick-slider {
-    height: min-content;
+    margin-bottom: -20px;
 }
 
 .project_smallnav_image, .project_smallnav_image img {
@@ -119,3 +117,6 @@ html, body {
     padding: 0;
 }
 
+.project_title {
+    margin-top: 0;
+}
