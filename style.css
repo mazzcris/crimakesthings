@@ -120,3 +120,7 @@ html, body {
 .project_title {
     margin: 0;
 }
+
+.project_details {
+    display: block;
+}
