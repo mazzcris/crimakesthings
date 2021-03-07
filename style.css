@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Lato&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
-    font-family: Poppins, sans-serif;
+    font-family: Lato, sans-serif;
+}
+
+h1 {
+    font-family: 'VT323', monospace;
+    font-size: 3em;
+    font-weight: lighter;
 }
 
 .header_container {
@@ -17,6 +25,8 @@ html, body {
     text-align: center;
     width: 100%;
     pointer-events: none;
+    font-family: 'VT323', monospace;
+    font-size: 64px;
 }
 
 .header_title img {
@@ -65,6 +75,11 @@ html, body {
 
 .project_container * {
     display: inline-block;;
+}
+
+.project_description {
+    display: block;
+    margin-bottom: 24px;
 }
 
 .project_container {
@@ -127,7 +142,19 @@ html, body {
 }
 
 .details_link {
-    margin-right: 10px;
+    display: block;
+}
+
+.details_section {
+    margin-bottom: 10px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    display: block;
+}
+
+.section_title {
+    display: block;
+    font-weight: bolder;
 }
 
 @media screen and (max-device-width: 800px) {
