@@ -126,6 +126,29 @@ html, body {
     display: block;
 }
 
-.details_link{
+.details_link {
     margin-right: 10px;
+}
+
+@media (max-width: 640px) {
+    .header_element {
+        width: 12.44%;
+    }
+
+    .mobile_hide {
+        display: none;
+    }
+
+    .project_container {
+        width: 90%;
+        margin-bottom: 120px;
+    }
+
+    .project_left {
+        width: 57%;
+    }
+
+    .project_details {
+        width: 37%;
+    }
 }
