@@ -102,11 +102,12 @@ html, body {
     width: 60px;
     height: auto;
     cursor: pointer;
-    margin-right: 12px;
 }
 
 .project_smallnav_image {
     box-shadow: rgb(200 200 200) 1px 1px 5px;
+    margin-bottom: 12px;
+    margin-right: 12px;
 }
 
 .slick-dots li {
@@ -123,4 +124,8 @@ html, body {
 
 .project_details {
     display: block;
+}
+
+.details_link{
+    margin-right: 10px;
 }
