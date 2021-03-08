@@ -157,6 +157,31 @@ h1 {
     font-weight: bolder;
 }
 
+.footer {
+    display: block;
+    background: black;
+    margin-top: 100px;
+    color: white;
+    padding: 80px;
+}
+
+.footer_content {
+    font-family: 'VT323', monospace;
+    font-size: 3em;
+    font-weight: lighter;
+    margin-bottom: 60px;
+}
+
+.footer_content a, .footer_credits a {
+    color: lightgreen;
+    text_decoration: none;
+}
+
+.footer_credits {
+    padding-top: 20px;
+    border-top: 1px solid white;
+}
+
 @media screen and (max-device-width: 800px) {
     .header_element {
         width: 12.44%;
