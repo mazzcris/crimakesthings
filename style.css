@@ -165,6 +165,7 @@ h1 {
     margin-top: 200px;
     color: white;
     padding: 80px;
+    overflow: hidden;
 }
 
 .footer_content {
