@@ -25,12 +25,10 @@ h1 {
     text-align: center;
     width: 100%;
     pointer-events: none;
-    font-family: 'VT323', monospace;
-    font-size: 64px;
 }
 
 .header_title img {
-    width: 70%;
+    width: 50%;
     pointer-events: none;
 }
 
@@ -135,6 +133,14 @@ h1 {
 
 .project_title {
     margin: 0;
+    display:inline-block;
+    -webkit-transform:scale(1.1,1); /* Safari and Chrome */
+    -moz-transform:scale(1.1,1); /* Firefox */
+    -ms-transform:scale(1.1,1); /* IE 9 */
+    -o-transform:scale(1.1,1); /* Opera */
+    transform:scale(1.1,1); /* W3C */
+    letter-spacing: 1px;
+    margin-left: 14px;
 }
 
 .project_details {
