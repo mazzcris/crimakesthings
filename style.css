@@ -81,13 +81,15 @@ h1 {
   margin-top: 60px;
   clear: both;
   border: 1px solid #f1ede9;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .project_left, .project_details {
   display: inline-block;
   width: 47%;
   float: left;
   margin: 1%;
+  margin-bottom: 0;
 }
 .project_image {
   width: 90%;
