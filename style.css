@@ -57,7 +57,7 @@ h1 {
   -moz-filter: opacity(25%) grayscale(75%);
   -o-filter: opacity(25%) grayscale(75%);
 }
-.header_link img :hover {
+.header_link img:hover {
   filter: opacity(75%) grayscale(0%);
   -webkit-filter: opacity(75%) grayscale(0%);
   -moz-filter: opacity(75%) grayscale(0%);
