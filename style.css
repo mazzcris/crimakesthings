@@ -137,6 +137,7 @@ h1 {
 }
 .details_section a {
   color: #d25c78;
+  font-size: 1em;
 }
 .details_section .section_title {
   display: block;
@@ -196,9 +197,14 @@ h1 {
     margin-bottom: 120px;
   }
   .project_left {
-    width: 57%;
+    width: 100%;
   }
   .project_details {
-    width: 37%;
+    width: 70%;
+  }
+  .project_smallnav_image, .project_smallnav_image img {
+    width: 120px;
+    height: auto;
+    cursor: pointer;
   }
 }
