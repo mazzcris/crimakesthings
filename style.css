@@ -147,6 +147,7 @@ h1 {
 .details_section a {
   color: #e3567a;
   font-size: 1em;
+  text-decoration: none;
 }
 .details_section .section_title {
   display: block;
@@ -163,11 +164,12 @@ h1 {
   overflow: hidden;
 }
 .footer_content {
-  font-size: 3em;
-  font-weight: lighter;
-  margin-bottom: 60px;
+  font-size: 2em;
 }
-.project_title, .footer_content {
+.footer_content a {
+  text-decoration: none;
+}
+.project_title {
   -webkit-transform: scale(1.1, 1);
   /* Safari and Chrome */
   -moz-transform: scale(1.1, 1);
