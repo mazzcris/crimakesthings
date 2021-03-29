@@ -169,25 +169,6 @@ h1 {
 .footer_content a {
   text-decoration: none;
 }
-.project_title {
-  -webkit-transform: scale(1.1, 1);
-  /* Safari and Chrome */
-  -moz-transform: scale(1.1, 1);
-  /* Firefox */
-  -ms-transform: scale(1.1, 1);
-  /* IE 9 */
-  -o-transform: scale(1.1, 1);
-  /* Opera */
-  transform: scale(1.1, 1);
-  /* W3C */
-  -webkit-transform-origin: top left;
-  -moz-transform-origin: top left;
-  -ms-transform-origin: top left;
-  -o-transform-origin: top left;
-  transform-origin: top left;
-  letter-spacing: 1px;
-  backface-visibility: hidden;
-}
 .footer_content a, .footer_credits a {
   color: #e3567a;
 }
