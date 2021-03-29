@@ -83,7 +83,8 @@ h1 {
 }
 .project_container {
   margin: auto;
-  display: block;
+  display: flex;
+  flex-direction: row;
   width: 70%;
   min-height: 480px;
   padding: 20px;
@@ -94,11 +95,15 @@ h1 {
   overflow-x: hidden;
 }
 .project_left, .project_details {
-  display: inline-block;
   width: 47%;
-  float: left;
   margin: 1%;
   margin-bottom: 0;
+}
+.project_left {
+  order: 0;
+}
+.project_details {
+  order: 1;
 }
 .project_image {
   width: 90%;
@@ -176,7 +181,7 @@ h1 {
   padding-top: 20px;
   border-top: 1px solid white;
 }
-@media screen and (max-device-width: 800px) {
+@media (max-device-width: 800px) {
   .header_element {
     width: 12.44%;
   }
@@ -185,18 +190,48 @@ h1 {
   }
   .project_container {
     width: 90%;
+    margin: auto;
     margin-bottom: 120px;
+    flex-direction: column;
+    padding: 0;
+    border: 0 none;
+  }
+  .project_title {
+    font-size: 3.5em;
+  }
+  .project_description {
+    font-size: 1.5em;
+  }
+  .project_images {
+    width: 100%;
   }
   .project_left {
     width: 100%;
+    order: 1;
+    margin: 0;
   }
   .project_details {
-    width: 70%;
+    width: 100%;
+    order: 0;
+    margin: 0;
   }
   .project_smallnav_image, .project_smallnav_image img {
     width: 120px;
     height: auto;
     cursor: pointer;
+  }
+  .details_section {
+    display: inline-block;
+    width: 47%;
+    margin-right: 2%;
+    font-size: 1.8em;
+    vertical-align: top;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    line-height: 1.2em;
+  }
+  .details_section .section_title {
+    margin-bottom: 12px;
   }
 }
 @media (min-width: 1000px) {
