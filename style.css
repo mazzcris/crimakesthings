@@ -32,10 +32,10 @@ h1 {
   font-family: 'MrRobot', monospace;
 }
 .header_container .header_title .cri {
-  color: #ffdb00;
+  color: #e3567a;
 }
 .header_container .header_title .makesthings {
-  color: #949398;
+  color: #017fb1;
 }
 .header_container .header_title div {
   margin: 0;
@@ -61,10 +61,10 @@ h1 {
 .header_link img {
   object-fit: cover;
   box-sizing: border-box;
-  filter: opacity(25%) grayscale(75%);
-  -webkit-filter: opacity(25%) grayscale(75%);
-  -moz-filter: opacity(25%) grayscale(75%);
-  -o-filter: opacity(25%) grayscale(75%);
+  filter: opacity(10%) grayscale(100%);
+  -webkit-filter: opacity(10%) grayscale(100%);
+  -moz-filter: opacity(10%) grayscale(100%);
+  -o-filter: opacity(10%) grayscale(100%);
 }
 .header_link img:hover {
   filter: opacity(75%) grayscale(0%);
@@ -145,14 +145,14 @@ h1 {
   display: block;
 }
 .details_section a {
-  color: #d25c78;
+  color: #e3567a;
   font-size: 1em;
 }
 .details_section .section_title {
   display: block;
   font-weight: bolder;
   letter-spacing: 2px;
-  color: #949398;
+  color: #017fb1;
 }
 .footer {
   display: block;
