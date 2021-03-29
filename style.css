@@ -156,14 +156,13 @@ h1 {
 }
 .footer {
   display: block;
-  background: #111111;
+  background: #5F5F61;
   margin-top: 200px;
   color: white;
   padding: 80px;
   overflow: hidden;
 }
 .footer_content {
-  font-family: 'VT323', monospace;
   font-size: 3em;
   font-weight: lighter;
   margin-bottom: 60px;
@@ -188,7 +187,7 @@ h1 {
   backface-visibility: hidden;
 }
 .footer_content a, .footer_credits a {
-  color: #e3bb54;
+  color: #e3567a;
 }
 .footer_credits {
   padding-top: 20px;
