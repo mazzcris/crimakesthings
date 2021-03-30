@@ -9,6 +9,15 @@ html, body {
   font-family: Lato, sans-serif;
   color: #555555;
 }
+.icon_link {
+  display: inline-block;
+  float: left;
+  margin: 10px 10px 10px 0;
+}
+.icon_link .icon {
+  width: 40px;
+  filter: invert(50%) sepia(16%) saturate(6322%) hue-rotate(314deg) brightness(95%) contrast(87%);
+}
 h1 {
   font-family: 'MrRobot', monospace;
   /*font-family: 'VT323', monospace;*/
