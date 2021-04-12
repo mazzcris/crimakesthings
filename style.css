@@ -183,6 +183,17 @@ h1 {
 .footer_content a {
   text-decoration: none;
 }
+.footer_content .footer_image {
+  width: 100px;
+  border-radius: 110px;
+  display: inline-block;
+  float: left;
+}
+.footer_content .footer_text {
+  display: inline-block;
+  line-height: 100px;
+  margin-left: 20px;
+}
 .footer_content a, .footer_credits a {
   color: #e3567a;
 }
