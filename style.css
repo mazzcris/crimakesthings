@@ -16,7 +16,7 @@ html, body {
 }
 .icon_link .icon {
   width: 20px;
-  filter: invert(50%) sepia(16%) saturate(6322%) hue-rotate(314deg) brightness(95%) contrast(87%);
+  filter: invert(19%) sepia(59%) saturate(5744%) hue-rotate(339deg) brightness(93%) contrast(101%);
 }
 h1 {
   font-family: 'MrRobot', monospace;
@@ -41,10 +41,10 @@ h1 {
   font-family: 'MrRobot', monospace;
 }
 .header_container .header_title .cri {
-  color: #e3567a;
+  color: #ef143f;
 }
 .header_container .header_title .makesthings {
-  color: #017fb1;
+  color: #0885ff;
 }
 .header_container .header_title div {
   margin: 0;
@@ -160,18 +160,18 @@ h1 {
   display: block;
 }
 .details_section a {
-  color: #e3567a;
+  color: #ef143f;
   font-size: 1em;
   text-decoration: none;
 }
 .details_section .section_title {
   display: block;
   font-weight: bolder;
-  color: #017fb1;
+  color: #0885ff;
 }
 .footer {
   display: block;
-  background: #5F5F61;
+  background: #a0a0a0;
   margin-top: 200px;
   color: white;
   padding: 80px;
@@ -195,7 +195,7 @@ h1 {
   margin-left: 20px;
 }
 .footer_content a, .footer_credits a {
-  color: #e3567a;
+  color: #ef143f;
 }
 .footer_credits {
   padding-top: 20px;
