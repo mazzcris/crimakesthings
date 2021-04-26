@@ -217,12 +217,14 @@ h1 {
   border-top: 1px solid white;
 }
 @media (max-device-width: 800px) {
-  .sub_header-margin-top: 20px;
   .header_container {
     margin-bottom: 50px;
   }
   .header_element {
     width: 12.44%;
+  }
+  .sub_header {
+    margin-top: 20px;
   }
   .mobile_hide {
     display: none;
