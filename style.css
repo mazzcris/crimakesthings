@@ -9,6 +9,37 @@ html, body {
   font-family: Lato, sans-serif;
   color: #555555;
 }
+.project_page {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+.price_table {
+  width: 80%;
+}
+.price_table .price_table_cost, .price_table .price_table_total {
+  font-weight: bold;
+}
+.price_table .price_table_cost {
+  text-align: right;
+}
+.page_title {
+  font-size: 2em;
+  font-family: 'MrRobot', monospace;
+  margin-bottom: 100px;
+}
+.page_title a {
+  text-decoration: none;
+}
+.page_title .cri {
+  color: #ef143f;
+}
+.page_title .makesthings {
+  color: #0885ff;
+}
+.page_title div {
+  display: inline-block;
+}
 .icon_link {
   display: inline-block;
   float: left;
