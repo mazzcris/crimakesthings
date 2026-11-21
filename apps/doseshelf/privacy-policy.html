@@ -19,7 +19,7 @@
 <body>
 <main>
   <h1>DoseShelf Privacy Policy</h1>
-  <p class="meta">Last updated: 17 November 2026</p>
+  <p class="meta">Last updated: 21 November 2026</p>
   <p>This policy explains how <strong>DoseShelf: Stock &amp; Reminders</strong> ("DoseShelf") handles information. DoseShelf is provided by <strong>CriMakesThings</strong> ("we", "us").</p>
   <p class="summary"><strong>Your medication information is stored and processed locally on your device.</strong> DoseShelf does not upload your medication cabinet to CriMakesThings, and we cannot access it through the app. DoseShelf does not require an account and contains no advertising or in-app analytics.</p>
 
@@ -49,6 +49,12 @@
   <p>On Android, DoseShelf can check for newer versions using Google's Play In-App Updates library. Google Play processes device metadata, the installed app version, and information about installed modules and asset packs to determine whether an update is available and its expected download size. Google states that this information is encrypted, is not transferred to third parties, and is deleted after a fixed retention period. Google Play handles this processing under its own terms and policies.</p>
   <p>The update checks do not send your medication cabinet to CriMakesThings or include it in requests to Google Play. DoseShelf does not register for remote push notifications for updates. Check times, prompt times, and update-progress flags are stored locally to avoid repeated prompts and recover an update that is downloading.</p>
   <p>In-app update prompts are optional and can be dismissed. Starting a download requires your choice to update and Google Play's confirmation flow. DoseShelf offers a separate choice to restart when a downloaded update is ready. Google Play may also update apps independently according to your store settings.</p>
+
+  <h3>Regional age and parental-approval signals</h3>
+  <p>From Android version 0.1.10, DoseShelf uses Google's Play Age Signals library. It first asks Google Play whether mandatory age sharing applies to the user. Only when Google Play reports that it applies does DoseShelf request access to an age-range signal and any available parental-approval status for significant app changes. Google Play determines applicability; DoseShelf does not infer your location from language, GPS, or IP addresses. The library does not identify the country or state to DoseShelf.</p>
+  <p>DoseShelf uses this information only for age-related safeguards and applicable legal requirements: it can show guidance for younger users, or ask you to review age verification or parental approval in Google Play. These notices do not record doses taken or authorize medication use. Medication instructions remain a matter for your doctor or pharmacist.</p>
+  <p>The response is handled locally and only in memory. DoseShelf does not save age ranges, approval results, verification sources, approval dates, or Google Play installation identifiers in its cabinet or preferences; it does not send them to CriMakesThings or use them for analytics, advertising, profiling, or tracking. The native bridge passes only a broad adult/minor/unknown category and the app-change approval status to the app interface; it does not pass installation identifiers, exact age bounds, or verification sources. Responses are discarded after the check, with any resulting notice kept in memory until dismissed or the app process ends.</p>
+  <p>DoseShelf does not ask you for a birth date, identity document, selfie, developer account, or developer-operated parental-verification service. Google Play handles its own age-sharing and verification processes under Google's terms and policies. Google states that the Play Age Signals client library collects no data. Age checks can be unavailable when offline or when Google Play does not support the service; DoseShelf does not delete your saved medication records in that situation. You can manage Google Play age information and parental settings through Google Play and, where applicable, Family Link.</p>
 
   <h2>4. Storage, security, and backups</h2>
   <p>Your cabinet is saved in the app's private local storage, protected by operating-system access controls. DoseShelf does not apply a separate layer of app-level encryption to these records. Protecting access to your device also helps protect your cabinet.</p>
